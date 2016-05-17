@@ -12,6 +12,7 @@
 		1D9C97B21CE1824C00F43F8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9C97B01CE1824C00F43F8D /* Main.storyboard */; };
 		1D9C97B41CE1824C00F43F8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9C97B31CE1824C00F43F8D /* Assets.xcassets */; };
 		1D9C97B71CE1824C00F43F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9C97B51CE1824C00F43F8D /* LaunchScreen.storyboard */; };
+		85A949101CEA8DAA0051F8B1 /* RecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A9490F1CEA8DAA0051F8B1 /* RecipeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1D9C97B31CE1824C00F43F8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D9C97B61CE1824C00F43F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D9C97B81CE1824C00F43F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85A9490F1CEA8DAA0051F8B1 /* RecipeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				1D9C97AC1CE1824C00F43F8D /* AppDelegate.swift */,
 				1D9C97AE1CE1824C00F43F8D /* ViewController.swift */,
+				85A9490F1CEA8DAA0051F8B1 /* RecipeTableViewController.swift */,
 				1D9C97B01CE1824C00F43F8D /* Main.storyboard */,
 				1D9C97B31CE1824C00F43F8D /* Assets.xcassets */,
 				1D9C97B51CE1824C00F43F8D /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85A949101CEA8DAA0051F8B1 /* RecipeTableViewController.swift in Sources */,
 				1D9C97AF1CE1824C00F43F8D /* ViewController.swift in Sources */,
 				1D9C97AD1CE1824C00F43F8D /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +290,7 @@
 				1D9C97BD1CE1824C00F43F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
